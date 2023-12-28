@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111111;
+}
+
+.bg-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.5)), url('/assets/hero.png');
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pink-400 rounded-xl;
+}
+
+.task> ::-webkit-scrollbar-thumb {
+  @apply bg-pink-400 rounded-xl;
+}
+
+
+
+::selection {
+  @apply bg-pink-400 text-black
+}
