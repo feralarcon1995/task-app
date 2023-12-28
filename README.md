@@ -2,6 +2,7 @@
 # Task Board App
 
 The Task Board App is a simple web application built with React and Dnd-kit for drag-and-drop functionality. It allows users to create and organize tasks in different columns on a board.
+- [Production App](https://tasks-appr.vercel.app/)
 
 ![App Screenshot](https://i.ibb.co/sRXd8FF/task.png)
 
@@ -32,13 +33,13 @@ To run the Task Board App locally, follow these steps:
 Clone the repository
 
 ```bash
-  git clone https://github.com/feralarcon1995/task-manager
+  git clone https://github.com/feralarcon1995/task-app
 ```
 
 Go to the project directory
 
 ```bash
-  cd task-manager
+  cd task-app
 ```
 
 Install dependencies
